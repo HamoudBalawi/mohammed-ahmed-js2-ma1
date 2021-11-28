@@ -1,4 +1,5 @@
 import { renderProducts } from "./renderProducts.js";
+  
 export function filterProducts(products){
     const filter = document.querySelector(".filter")
 filter.onkeyup = function (event){
